@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Interactive To Do List</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 30px;
+        }
+
+        h1 {
+            color: darkblue;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            width: 300px;
+        }
+
+        li {
+            background-color: lightgray;
+            color: black;
+            padding: 15px;
+            margin: 10px 0;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            border-radius: 5px;
+        }
+
+        /* Style for completed tasks */
+        .completed {
+            background-color: lightgreen;
+            color: darkgreen;
+            text-decoration: line-through;
+        }
+
+        /* Tick icon is initially hidden */
+        .tick {
+            display: none;
+            color: green;
+            font-weight: bold;
+        }
+
+        /* Show tick when task is completed */
+        .completed .tick {
+            display: inline;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Interactive To Do List</h1>
+
+    <ul>
+        <li onclick="completeTask(this)">
+            Study HTML
+            <span class="tick">✓</span>
+        </li>
+
+        <li onclick="completeTask(this)">
+            Learn CSS
+            <span class="tick">✓</span>
+        </li>
+
+        <li onclick="completeTask(this)">
+            Practice JavaScript
+            <span class="tick">✓</span>
+        </li>
+
+        <li onclick="completeTask(this)">
+            Complete Assignment
+            <span class="tick">✓</span>
+        </li>
+    </ul>
+    
+</body>
+</html>
