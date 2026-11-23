@@ -1,0 +1,33 @@
+.hero {
+  background: #eff6ff;
+  min-height: 420px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.hero h1 {
+  font-size: 45px;
+  max-width: 650px;
+  color: #0e152f;
+  line-height: 1.2;
+}
+
+.hero p {
+  max-width: 550px;
+  margin: 20px 0;
+  line-height: 1.7;
+  color: #555;
+}
+
+.hero button {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 14px 25px;
+  border-radius: 6px;
+  cursor: pointer;
+}

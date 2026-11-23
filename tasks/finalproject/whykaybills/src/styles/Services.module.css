@@ -1,0 +1,33 @@
+.services {
+  padding: 60px 8%;
+  text-align: center;
+}
+
+.services h2 {
+  color: #172554;
+  font-size: 32px;
+}
+
+.container {
+  display: flex;
+  gap: 25px;
+  margin-top: 35px;
+}
+
+.card {
+  flex: 1;
+  background: #f8fafc;
+  padding: 35px 20px;
+  border-radius: 10px;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.05);
+}
+
+.card h3 {
+  color: #2563eb;
+  margin-bottom: 15px;
+}
+
+.card p {
+  color: #555;
+  line-height: 1.6;
+}
